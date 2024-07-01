@@ -1,0 +1,38 @@
+.form {
+  -webkit-text-size-adjust: 100%;
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #222;
+  font-family: sans-serif;
+  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Alinear elementos horizontalmente */
+  align-items: flex-start;
+  margin-left: 311.5px;
+}
+
+
+.h2 {
+  color: white;
+  padding: 3rem 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Staatliches', cursive;
+  letter-spacing: 1px;
+}
+
+.label {
+  color: white;
+}
+
+
+
+.textarea {
+  min-height: 65px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  overflow: auto;
+  margin-bottom: 22px;
+}

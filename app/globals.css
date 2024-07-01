@@ -1,0 +1,79 @@
+/* Cita.module.css */
+
+
+
+
+/* Agrega los colores de fondo específicos */
+
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-image: linear-gradient(-225deg, #A445B2 0%, #D41872 52%, #FF0066 100%);
+  min-height: 100%;
+  padding-bottom: 5rem;
+  
+}
+
+
+.button{
+  display: block; /* Cambiar a bloque para el botón */
+  width: 100%; /* Hacer que el botón ocupe todo el ancho */
+  height: 38px;
+  padding: 0;
+  color: #555; /* Cambiar el color del texto */
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  background-color: transparent; /* Cambiar el color de fondo */
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+.form{
+  -webkit-text-size-adjust: 100%;
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #222;
+  font-family: sans-serif;
+  margin-bottom: 2.5rem;
+  flex-direction: column;
+}
+
+.alerta-error {
+  background-color: white;
+  color: red;
+  padding: 1rem;
+  font-size: 2rem;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Staatliches', cursive;
+}
+
+.input{
+  -webkit-text-size-adjust: 100%;
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  overflow: visible;
+  margin-bottom: 1.5rem;
+  width: 100%;
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+  appearance: none;
+}
