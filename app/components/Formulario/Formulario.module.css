@@ -1,38 +1,87 @@
-.form {
+.oneHalfColumn {
   -webkit-text-size-adjust: 100%;
-  font-size: 1.5em;
+  font-size: 15px;
   line-height: 1.6;
-  font-weight: 400;
+  font-weight: 600;
   color: #222;
   font-family: sans-serif;
-  margin-bottom: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center; /* Alinear elementos horizontalmente */
-  align-items: flex-start;
+  float: left;
+  box-sizing: border-box;
+ 
   margin-left: 311.5px;
 }
 
-
 .h2 {
   color: white;
-  padding: 3rem 0;
+  align-items: center;
   text-align: center;
   text-transform: uppercase;
   font-family: 'Staatliches', cursive;
   letter-spacing: 1px;
+  
+  
+
 }
 
 .label {
+  font-size: 15px;
+  line-height: 1.6;
+  font-family: sans-serif;
+  display: block;
+  margin-bottom: .5rem;
+  font-weight: 600;
   color: white;
 }
 
-
+.input, 
+.textarea, 
+.input[type="date"], 
+.input[type="time"] {
+  width: 460.8px;
+  height: 38px;
+  padding: 6px 10px;
+  background-color: #fff;
+  border: 1px solid #D1D1D1;
+  border-radius: 4px;
+  box-shadow: none;
+  box-sizing: border-box;
+  display: block;
+  margin-bottom: 1rem;
+}
 
 .textarea {
-  min-height: 65px;
+  height: 65px;
   padding-top: 6px;
   padding-bottom: 6px;
   overflow: auto;
   margin-bottom: 22px;
+  width: 460.8px;
+  
+}
+
+.button {
+  font-family: inherit;
+  margin: 0;
+  overflow: visible;
+  display: inline-block;
+  height: 38px;
+  padding: 0 30px;
+  text-align: center;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 38px;
+  letter-spacing: .1rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  white-space: nowrap;
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  cursor: pointer;
+  margin-bottom: 1rem;
+  -webkit-appearance: button;
+  width: 100%;
+  box-sizing: border-box;
+  color: #FFF;
+  background-color: #33C3F0;
+  border-color: #33C3F0;
 }

@@ -1,29 +1,10 @@
 .label {
   color: white;
-  font-size: 15px;
-  font-family: sans-serif;
-  font-weight: 600;
- 
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  align-items: start; /* Centra los elementos horizontalmente */
-}
-
-.input,
-.inputDate,
-.inputTime,
-.form {
-  -webkit-text-size-adjust: 100%;
-  font-family: inherit;
-  font-size: 100%;
-  line-height: 1.15;
-  margin: 0;
-  overflow: visible;
-  margin-bottom: 1.5rem;
-  width: 460.8px; 
+.input[type="date"],
+.input[type="time"] {
+  width: 460.8px;
   height: 38px;
   padding: 6px 10px;
   background-color: #fff;
@@ -31,16 +12,4 @@
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box;
-  appearance: none;
-  font-size: 15px;
-}
-
-.form {
-  -webkit-text-size-adjust: 100%;
-  font-size: 1.5em;
-  line-height: 1.6;
-  font-weight: 400;
-  color: #222;
-  font-family: sans-serif;
-  margin-bottom: 2.5rem;
 }

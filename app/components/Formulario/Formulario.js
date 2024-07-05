@@ -31,46 +31,49 @@ const Formulario = ({ citas, setCitas }) => {
   };
 
   return (
-    <div className={styles.form}>
-      <h2 className={styles.h2}>Crear mi cita</h2>
-      <form onSubmit={agregarCita}>
-        <ItemFormulario
-          texto="Nombre Mascota"
-          name="Mascota"
-          placeHolder="Nombre Mascota"
-          type="text"
-        />
-        <ItemFormulario
-          texto="Nombre Dueño"
-          name="Dueño"
-          placeHolder="Nombre dueño de la mascota"
-          type="text"
-        />
-        <ItemFormulario
-          texto="Fecha"
-          name="Fecha"
-          type="date"
-          className={styles.inputDate}
-        />
-        <ItemFormulario
-          texto="Hora"
-          name="Hora"
-          type="time"
-          className={styles.inputTime}
-        />
-        <label className={styles.label}>Síntomas</label>
-        <input
-          type="text"
-          className={`u-full-width ${styles.textarea}`}
-          name="Sintomas"
-        />
-        <input
-          type="submit"
-          value="Agregar Cita"
-          className="u-full-width button-primary"
-        />
-      </form>
-    </div>
+    React.createElement('div', { className: styles.oneHalfColumn },
+      React.createElement('h2', { className: styles.h2 }, 'Crear mi cita'),
+      React.createElement('form', { onSubmit: agregarCita, className: styles.formStyles },
+        React.createElement(ItemFormulario, {
+          texto: 'Nombre Mascota',
+          name: 'Mascota',
+          placeHolder: 'Nombre Mascota',
+          type: 'text',
+          clase: styles.input,
+        }),
+        React.createElement(ItemFormulario, {
+          texto: 'Nombre Dueño',
+          name: 'Dueño',
+          placeHolder: 'Nombre dueño de la mascota',
+          type: 'text',
+          clase: styles.input,
+        }),
+        React.createElement(ItemFormulario, {
+          texto: 'Fecha',
+          name: 'Fecha',
+          type: 'date',
+          clase: styles.input,
+        }),
+        React.createElement(ItemFormulario, {
+          texto: 'Hora',
+          name: 'Hora',
+          type: 'time',
+          clase: styles.input,
+        }),
+        React.createElement('label', { className: styles.label }, 'Síntomas'),
+        React.createElement('input', {
+          type: 'text',
+          className: `${styles.input} ${styles.textarea}`,
+          name: 'Sintomas',
+          id: 'textarea',
+        }),
+        React.createElement('input', {
+          type: 'submit',
+          value: 'Agregar Cita',
+          className: `${styles.button} ${styles['button-primary']}`,  // Usar corchetes para acceder a la clase con guión
+        })
+      )
+    )
   );
 };
 

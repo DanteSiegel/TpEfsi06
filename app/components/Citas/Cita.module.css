@@ -1,42 +1,33 @@
-.container {
-  display: flex;
-  flex-direction: column;
-  /* Alinea al final verticalmente */
-
-}
-
-.content {
-  display: flex;
-  flex-direction: column; /* Alinea las tarjetas verticalmente */
- 
-  
-}
-
-.form {
-  width: 460.8px; /* Ancho del formulario */
-  margin-bottom: 20px; /* Margen inferior del formulario */
-}
-
 .h2 {
   color: white;
   padding: 3rem 0;
   text-align: center;
+
   text-transform: uppercase;
+
   font-family: 'Staatliches', cursive;
   letter-spacing: 1px;
-  margin-bottom: 20px; /* Margen inferior del encabezado */
 }
 
-@media (min-width: 550px) {
-  .content {
-    flex-direction: row; /* Cambia a fila para alinear horizontalmente */
+.oneHalfColumn {
+  -webkit-text-size-adjust: 100%;
+  font-size: 1.5em;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #222;
+  font-family: sans-serif;
+  float: left;
+  box-sizing: border-box;
+  margin-left: 0;
+  width: 48%;
+  
+}
 
-  }
-
-  .form {
-    flex: 1; /* Hace que el formulario ocupe todo el espacio restante */
-    max-width: 460.8px; /* Ancho máximo del formulario */
-    margin-right: 20px; /* Margen a la derecha del formulario */
-    margin-bottom: 0; /* Elimina el margen inferior del formulario */
-  }
+.row{
+  -webkit-text-size-adjust: 100%;
+  font-size: 15px;
+  line-height: 1.6;
+  font-weight: 400;
+  color: #222;
+  font-family: sans-s
 }

@@ -12,10 +12,15 @@ const ItemFormulario = ({
   const additionalClass = type === 'date' ? styles.inputDate : type === 'time' ? styles.inputTime : '';
 
   return (
-    <div className={styles.container}>
+    <>
       <label className={styles.label}>{texto}</label>
-      <input name={name} placeholder={placeHolder} className={`${styles.input} ${clase} ${additionalClass}`} type={type} />
-    </div>
+      <input
+        name={name}
+        placeholder={placeHolder}
+        className={`${clase} ${additionalClass}`}
+        type={type}
+      />
+    </>
   );
 }
 
