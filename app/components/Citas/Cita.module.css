@@ -1,12 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 .h2 {
   color: white;
-  padding: 3rem 0;
+  align-items: center;
   text-align: center;
-
   text-transform: uppercase;
-
   font-family: 'Staatliches', cursive;
   letter-spacing: 1px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 42px;
+  font-weight: normal;
+  width: 421.234px;
+  height: 52,5px;
+  margin-left: 38.391px;
+  margin-bottom: 34.860;
+  margin-top: 0;
 }
 
 .oneHalfColumn {
@@ -19,15 +27,7 @@
   float: left;
   box-sizing: border-box;
   margin-left: 0;
-  width: 48%;
+  margin-right: 311.5px;
   
 }
 
-.row{
-  -webkit-text-size-adjust: 100%;
-  font-size: 15px;
-  line-height: 1.6;
-  font-weight: 400;
-  color: #222;
-  font-family: sans-s
-}

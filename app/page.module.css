@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 .App {
   text-align: center;
 }
@@ -19,14 +20,7 @@
 #root {
     display: block;
 }
-.h1{
-  color: white;
-    padding: 3rem 0;
-    text-align: center;
-    text-transform: uppercase;
-    font-family: 'Staatliches', cursive;
-    letter-spacing: 1px;
-}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

@@ -1,9 +1,3 @@
-/* Cita.module.css */
-
-
-
-
-/* Agrega los colores de fondo específicos */
 
 
 body {
@@ -19,7 +13,7 @@ body {
 
 .button{
   display: block; /* Cambiar a bloque para el botón */
-  width: 100%; /* Hacer que el botón ocupe todo el ancho */
+  width: 420.8px;
   height: 38px;
   padding: 0;
   color: #555; /* Cambiar el color del texto */

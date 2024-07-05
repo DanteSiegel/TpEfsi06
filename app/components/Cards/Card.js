@@ -1,5 +1,7 @@
 import React from 'react';
-import styles from './Card.module.css'; // Importa estilos como objeto
+import styles from './Card.module.css';
+
+
 
 const Card = ({
   Id = Date.now(),
@@ -23,7 +25,9 @@ const Card = ({
   }
 
   return (
-    <div className={styles.cita}> {/* Usa styles.cita en lugar de 'cita' */}
+
+    
+    <div className={styles.cita}>
       <p>Mascota: <span>{Mascota}</span></p>
       <p>Dueño: <span>{Dueño}</span></p>
       <p>Fecha: <span>{Fecha}</span></p>

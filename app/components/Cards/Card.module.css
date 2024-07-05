@@ -1,34 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Staatliches&display=swap');
 .cita {
-    padding: 2rem;
-    background: white;
-    border-bottom: 1px solid #e1e1e1;
-    color: black;
-    margin-bottom: 20px;
-  }
+  width: 420.8px;
+  height: 249px;
+  padding: 20px;
+  background: white;
+  border-bottom: 1px solid #e1e1e1;
+  color: black;
+  margin-bottom: 20px;
+  border-radius: 16px;
+  margin-left: 38.391px;
+ 
+}
 
-  .cita p {
-    font-weight: bold;
-    margin-bottom: .8rem;
-  }
+.cita p {
+  font-weight: bold;
+  margin-bottom: 8px;
+  font-size: 15px;
+}
 
-  .cita p span {
-    font-weight: normal;
+.cita p span {
+  font-weight: normal;
+}
 
-  }
-
-  .cita:first-of-type {
-    border-top-left-radius: 1rem;
-    border-top-right-radius: 1rem;
-  }
-
-  .cita:last-of-type {
-    border-bottom-left-radius: 1rem;
-    border-bottom-right-radius: 1rem;
-  }
-
-  .button.eliminar,
-  .button.eliminar:hover {
-    background-color: #c10059;
-    color: white;
-    margin-top: 2rem;
-  }
+.button.eliminar {
+  width: 420.8px;
+  height: 38px;
+  background-color: #c10059;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.button.eliminar:hover {
+  background-color: #950042;
+}
