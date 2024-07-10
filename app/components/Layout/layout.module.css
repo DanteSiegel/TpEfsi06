@@ -1,0 +1,38 @@
+.container {
+    display: flex;
+    flex-direction: column;
+  
+  }
+  
+  .header {
+    background: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .navList {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .navItem {
+    margin: 0 1rem;
+  }
+  
+  .navItem a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .navItem a:hover {
+    text-decoration: underline;
+  }
+  
+  .main {
+    flex: 1;
+    padding: 2rem;
+  }
+  
