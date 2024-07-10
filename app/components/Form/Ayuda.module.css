@@ -1,0 +1,60 @@
+.formulario {
+    font-family: sans-serif;
+  
+  margin: auto;
+    }
+  
+    
+    .label {
+      color: white;
+    }
+    
+    
+.button {
+    font-family: inherit;
+    margin: 0;
+    overflow: visible;
+    display: inline-block;
+    height: 38px;
+    padding: 0 30px;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 600;
+    line-height: 38px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    white-space: nowrap;
+    border-radius: 4px;
+    border: 1px solid #bbb;
+    cursor: pointer;
+    margin-bottom: 1rem;
+    -webkit-appearance: button;
+    width: 100%;
+    box-sizing: border-box;
+    color: #FFF;
+    background-color: #33C3F0;
+    border-color: #33C3F0;
+  }
+  
+    .textarea {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+    
+    .inputField {
+      height: 38px;
+      padding: 6px 10px;
+      background-color: #fff;
+      border: 1px solid #d1d1d1;
+      border-radius: 4px;
+      box-shadow: none;
+      box-sizing: border-box;
+      margin-bottom: 1.5rem;
+    } 
+  
+    
+    

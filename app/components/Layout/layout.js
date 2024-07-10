@@ -11,7 +11,7 @@ export default function Layout({ children }) {
               <Link href="/">Home</Link>
             </li>
             <li className={styles.navItem}>
-              <Link href="/quienes-somos">Quienes Somos</Link>
+              <Link href="/QuienesSomos">Quienes Somos</Link>
             </li>
             <li className={styles.navItem}>
             <Link href="/Reservas">
@@ -19,7 +19,7 @@ export default function Layout({ children }) {
             </Link>
             </li>
             <li className={styles.navItem}>
-              <Link href="/contacto">Contacto</Link>
+              <Link href="/Contacto">Contacto</Link>
             </li>
           </ul>
         </nav>
