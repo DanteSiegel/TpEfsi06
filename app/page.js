@@ -1,23 +1,36 @@
 "use client";
-import Image from "next/image";
-import styles from "./page.module.css";
-import Layout from "./components/Layout/layout";
-import Head from "next/head";
-import Inicio from './components/Home/home';
+import React, { useEffect, useState } from 'react';
+import Titulo from '../components/Titulo/index.js';
+import Formulario from '../components/Formulario/Formulario';
+import Cita from '../components/Citas/Cita';
+import Layout from "../components/Layout/layout";
 
+const Reservas = () => {
+  const [citas, setCitas] = useState([]);
 
-export default function Home() {
+  useEffect(() => {
+    const savedCitas = localStorage.getItem('citas');
+    if (savedCitas) {
+      setCitas(JSON.parse(savedCitas));
+    }
+  }, []);
+
+  useEffect(() => {
+    localStorage.setItem('citas', JSON.stringify(citas));
+  }, [citas]);
+
   return (
-    <>
-      <Head>
-        <title>Veterinaria de los Papus</title>
-      </Head>
-      <Layout />
-      <main className={styles.main}>
-        <Inicio />
-      </main>
-
-   
-    </>
+    <div className="page">
+      <Layout></Layout>
+      <Titulo texto={"Reservas"} />
+      <div className="container">
+        <div className="row">
+          <Formulario citas={citas} setCitas={setCitas} />
+          <Cita citas={citas} setCitas={setCitas} />
+        </div>
+      </div>
+    </div>
   );
 }
+
+export default Reservas;
